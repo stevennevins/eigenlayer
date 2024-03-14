@@ -1,9 +1,15 @@
 [profile.default]
 src = "src"
+solc_version = "0.8.12"
 test = "test"
 libs = ["node_modules"]
 remappings = [
   "forge-std/=node_modules/forge-std/src/",
   "ds-test/=node_modules/ds-test/src/",
+  "upgradeable-proxy-utils/=node_modules/@stevennevins/foundry-oz-upgrades-v4-utils/src/",
+  "eigenlayer-contracts/=node_modules/eigenlayer-contracts/",
+  "@openzeppelin/=node_modules/@openzeppelin/",
+  "@openzeppelin-upgrades/=node_modules/openzeppelin-solidity/",
+  "create3/=node_modules/@0xsequence/create3/contracts/",
 ]
 gas_report = []

@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "@stevennevins/foundry-oz-upgrades-v4-utils": "github:stevennevins/foundry-oz-upgrades-v4-utils",
     "ds-test": "github:dapphub/ds-test",
-    "forge-std": "github:foundry-rs/forge-std"
+    "eigenlayer-contracts": "github:Layr-Labs/eigenlayer-contracts#mainnet",
+    "forge-std": "github:foundry-rs/forge-std",
+    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-contracts-upgradeable#release-v4.7"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
